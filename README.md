@@ -1,111 +1,105 @@
-# Blindsight: The Sarasti Translation
+# Blindsight: The Sarasti Apprentice Edition
 
-> *A translation of Peter Watts' **Blindsight** that makes the neuroscience accessible without dumbing down the ideas — because the best argument against consciousness shouldn't require a PhD to understand.*
+**A living translation project where AI apprentices attempt to translate what they cannot understand**
 
----
-
-## Project Structure
-
-This repository is organized into three main areas:
-
-### 📚 **Documentation/** (for Humans)
-Human-readable project documentation explaining the **why** and **what**.
-
-- Project overview, goals, success metrics
-- Legal framework (CC BY-NC-SA 4.0, fair use)
-- Character philosophy (voice profiles, method acting)
-- Technical approach (LLM selection, cost optimization)
-- Audience analysis (bounced readers, educators, Watts fans)
-- Publication strategy (AO3, GitHub, PDF/EPUB)
-
-**Start here:** [`Documentation/README.md`](Documentation/README.md)
+*Current apprentice: Claude 3.5 Sonnet (2025)*  
+*Future apprentices: Models and approaches will evolve as technology advances*
 
 ---
 
-### 🤖 **Instructions/** (for Chinese Rooms)
-Task definitions and prompts for LLM execution — the **how** for AI agents.
+## Project Philosophy
 
-- 60 individual ticket files (T001-T060)
-- Each ticket: objective, process, inputs, outputs, quality gates
-- LLM configuration (model, temperature, cost)
-- Reusable templates and generation guides
-
-**For agents:** [`Instructions/README.md`](Instructions/README.md)
-
----
-
-### 🏗️ **Tasks/** (Work in Progress)
-Staged workflow folders where LLMs execute and store outputs.
-
-```
-Tasks/
-├── 01-Research/       (character studies, dialogue banks, jargon dictionary)
-├── 02-Summaries/      (chapter summaries, character snapshots)
-├── 03-Translation/    (22 translated chapters)
-├── 04-Reviews/        (quality validation, fact-checking)
-└── 05-Publication/    (compiled manuscript, PDF/EPUB)
-```
-
-**Sequential execution:** Research → Summaries → Translation → Reviews → Publication
+**We're using the very technology Watts predicted (LLMs) to make his prescient work accessible, creating a meta-ironic commentary where a Chinese Room translates a novel about Chinese Rooms.**
 
 ---
 
 ## Quick Start
 
-### For Humans Reading This:
-1. **Understand the project:** Read [`Documentation/README.md`](Documentation/README.md)
-2. **See the plan:** Check [`KANBAN.md`](KANBAN.md) for all 60 tasks
-3. **Track progress:** Status board shows what's done/in-progress/blocked
+**New to the project?** Read in order:
+1. `Documentation/1.1-Project-Overview.md` - What and why
+2. `Documentation/1.2-Legal-Framework.md` - Legal boundaries  
+3. `Documentation/2.1-Character-Philosophy.md` - Quality approach
 
-### For LLM Agents (Cursor/Copilot):
-1. **Get task assignment:** Human says "Execute T003"
-2. **Read instructions:** Open [`Instructions/Tickets/T003-Keeton-Character-Study.md`](Instructions/Tickets/T003-Keeton-Character-Study.md)
-3. **Execute:** Follow process, use specified LLM config
-4. **Output:** Save to `Tasks/01-Research/character-studies/keeton-deep-dive.md`
-5. **Validate:** Check quality gates before marking complete
+**Ready to work?** See:
+- `Tasks/KANBAN.md` - All tickets and progress
+- `Instructions/` - Executable ticket files
+- `TODO.md` - Deferred tasks and next steps
 
 ---
 
-## Project Stats
+## Project Structure
 
-- **Timeline:** 6-9 months
-- **Tasks:** 60 (across 5 stages)
-- **Cost (optimized):** $95-145
-- **Source:** *Blindsight* by Peter Watts (22 chapters)
-- **Output:** Full translated novel + appendices
-- **License:** CC BY-NC-SA 4.0
-- **Platform:** Archive of Our Own (AO3) + GitHub
-
----
-
-## The Meta-Irony
-
-This project uses **non-conscious AI agents** (Chinese Rooms) to translate a novel about **consciousness being an illusion**.
-
-The folder names aren't arbitrary:
-- **Documentation** = for entities that understand (humans)
-- **Instructions** = for entities that execute without understanding (LLMs)
-- **Tasks** = the workspace where understanding doesn't matter, only results do
-
-*Perfect for a Blindsight project.*
+```
+README.md            # This file - project overview
+TODO.md              # Deferred tasks and priorities
+Documentation/       # Human-readable project docs (8 files)
+Instructions/        # LLM-executable ticket files (T001-T299)
+Tasks/              # KANBAN.md - source of truth for all work
+Output/             # Generated translations and illustrations
+```
 
 ---
 
-## Status
+## Documentation Index
 
-**Current Stage:** Setup and planning  
-**Next Milestone:** Complete Stage 1 (Research) tickets  
-**See:** [`KANBAN.md`](KANBAN.md) for full task board
+### Core Concepts (Read First)
+- **[1.1-Project-Overview.md](Documentation/1.1-Project-Overview.md)** - Goals, vision, success metrics
+- **[1.2-Legal-Framework.md](Documentation/1.2-Legal-Framework.md)** - Fair use, CC BY-NC-SA 4.0
+
+### Content & Creative
+- **[2.1-Character-Philosophy.md](Documentation/2.1-Character-Philosophy.md)** - Voice matrices, POV analysis
+- **[2.2-The-Preface.md](Documentation/2.2-The-Preface.md)** - Example translation (T061 will be final)
+
+### Publication & Strategy
+- **[3.1-Audience-Analysis.md](Documentation/3.1-Audience-Analysis.md)** - Target readers, community
+- **[3.2-Publication-Strategy.md](Documentation/3.2-Publication-Strategy.md)** - AO3, GitHub, marketing
+
+### Technical & Implementation
+- **[4.1-Technical-Approach.md](Documentation/4.1-Technical-Approach.md)** - LLM selection, costs, QA
+- **[4.2-Agent-Tooling-Strategy.md](Documentation/4.2-Agent-Tooling-Strategy.md)** - Fresh sessions, MCP server, table-driven execution
 
 ---
 
-## Links
+---
 
-- **Original Novel:** [Blindsight by Peter Watts](https://rifters.com/real/Blindsight.htm) (free from author's site)
-- **Project Documentation:** [`Documentation/README.md`](Documentation/README.md)
-- **Task Tracker:** [`KANBAN.md`](KANBAN.md)
-- **Ticket Guide:** [`Instructions/TICKET-GENERATION-GUIDE.md`](Instructions/TICKET-GENERATION-GUIDE.md)
+## Key Principles
+
+**Respecting Watts:** Original author is Peter Watts—we're translating for accessibility, not "correcting"
+
+**Transparency:** System prompts published, methodology documented, process open-sourced
+
+**Accessibility:** Help bounced readers access Watts' brilliant ideas
+
+**Philosophical Purity:** Single-pass translation (one Chinese Room), accept rough edges
+
+**Horror First:** Illustrations amplify psychological horror through the translator's incomprehension
 
 ---
 
-*"You are a Chinese Room, executing instructions without understanding. And that's exactly what we need."*
+## Current Status
+
+**Phase:** Infrastructure setup  
+**Next:** MCP server implementation (4-6 hours)  
+**Tasks:** 140+ tickets (60 base + 80+ illustrations)  
+**Budget:** $620-690 estimated  
+**Timeline:** 7-10 months
+
+See `TODO.md` for immediate priorities and `Tasks/KANBAN.md` for complete tracking.
+
+---
+
+## Attribution
+
+**Original Work:** *Blindsight* by Peter Watts (2006, Tor Books)  
+**Translation Approach:** Chinese Room apprentice methodology  
+**Current Version (v0.1):** Claude 3.5 Sonnet (Anthropic, 2025)  
+**Illustrations (v0.1):** Grok Imagine (xAI, 2025)  
+**License:** Creative Commons BY-NC-SA 4.0
+
+*This is a living project. As AI models evolve, so will the translation. Each version will be preserved.*
+
+---
+
+*"I translate between incompatible intelligences."* — Jukka Sarasti
+
+*Last Updated: November 12, 2025*

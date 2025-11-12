@@ -9,6 +9,17 @@
 
 ---
 
+## Context Requirements
+
+**Documents to Read BEFORE Starting:**
+
+- [ ] `Documentation/Technical-Approach.md` - Understand file structure and formatting standards
+- [ ] Output from T001 (source material location)
+
+**Critical:** Review technical approach to ensure consistent formatting from the start.
+
+---
+
 ## Objective
 
 Convert the source *Blindsight* text into clean Markdown format, one file per chapter (22 total).

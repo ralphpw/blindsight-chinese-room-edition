@@ -5,7 +5,32 @@
 **LLM:** Claude Opus 3.5  
 **Estimated Cost:** $10  
 **Estimated Time:** 4-6 hours  
-**Depends On:** T002, T003-T007, T008-T012, T013, T014, T015
+**Depends On:** T003-T012 (Character studies), T013 (Jargon), T014-T017 (Summaries)
+
+---
+
+## Context Requirements
+
+**Documents to Read BEFORE Starting:**
+
+**MANDATORY (Must be fresh in memory):**
+- [ ] `Documentation/The-Preface.md` - **CRITICAL:** Keep Sarasti-9947 voice and meta-ironic tone fresh
+- [ ] `Tasks/01-Research/Literary-Style-Guide.md` (T062 output) - **CRITICAL:** Watts' prose techniques and patterns
+- [ ] `Instructions/Character-Voice-Reference.md` - **CRITICAL:** All character voices (human AND non-human) in one document
+- [ ] `Instructions/Using-Watts-Language-Legal-Requirements.md` - **LEGAL:** When to use Watts' exact words vs. transform (fair use compliance)
+- [ ] `Documentation/Character-Philosophy.md` - Voice profiles and method acting approach
+
+**Supporting Context:**
+- [ ] `Tasks/01-Research/Jargon-Dictionary.md` (T013 output) - Technical terms reference
+- [ ] `Tasks/02-Summaries/Chapter-01-Summary.md` (T014 output) - Chapter overview
+- [ ] `Tasks/02-Summaries/Character-Arc-Snapshot-Chapter-01.md` (T015 output) - Character states
+- [ ] Original `Source/Chapter-01.md` (T002 output) - Source material
+
+**Critical:** The preface establishes our voice. Re-read it immediately before translation to ensure consistency.
+
+---
+
+## Objective
 
 ---
 

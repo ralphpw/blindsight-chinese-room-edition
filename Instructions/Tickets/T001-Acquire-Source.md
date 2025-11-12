@@ -9,6 +9,17 @@
 
 ---
 
+## Context Requirements
+
+**Documents to Read BEFORE Starting:**
+
+- [ ] `Documentation/Project-Overview.md` - Understand project goals and philosophy
+- [ ] `Documentation/Legal-Framework.md` - Understand copyright/fair use considerations
+
+**Critical:** Ensure you understand the legal framework before acquiring source material.
+
+---
+
 ## Objective
 
 Download Peter Watts' *Blindsight* novel from legal source and prepare for conversion to Markdown.

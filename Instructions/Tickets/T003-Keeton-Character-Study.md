@@ -9,6 +9,18 @@
 
 ---
 
+## Context Requirements
+
+**Documents to Read BEFORE Starting:**
+
+- [ ] `Documentation/Character-Philosophy.md` - Understand method acting approach and voice requirements
+- [ ] `Documentation/Technical-Approach.md` - Review LLM system prompts and analysis framework
+- [ ] `Tasks/01-Research/Chapter-XX-Keeton.md` - All Keeton appearances from T002 output
+
+**Critical:** Must have character philosophy fresh in memory to create deep, nuanced analysis.
+
+---
+
 ## Objective
 
 Generate a comprehensive character analysis of Siri Keeton (POV narrator) including personality traits, speech patterns, character arc, and every significant quote.

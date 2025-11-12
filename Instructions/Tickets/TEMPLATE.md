@@ -9,6 +9,18 @@
 
 ---
 
+## Context Requirements
+
+**Documents to Read BEFORE Starting:**
+
+- [ ] `Documentation/The-Preface.md` - [When needed: For translation tasks to keep voice fresh]
+- [ ] `Documentation/Character-Philosophy.md` - [When needed: For character-focused tasks]
+- [ ] `[Other specific documents based on task type]`
+
+**Critical:** Do not proceed until all required context is loaded and fresh in working memory.
+
+---
+
 ## Objective
 
 [Clear, one-sentence description of what this task accomplishes]

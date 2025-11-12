@@ -9,6 +9,18 @@
 
 ---
 
+## Context Requirements
+
+**Documents to Read BEFORE Starting:**
+
+- [ ] `Documentation/Audience-Analysis.md` - Understand target audience (bounced readers who need jargon help)
+- [ ] `Documentation/Technical-Approach.md` - Review jargon handling philosophy
+- [ ] All 22 chapter files from T002 output
+
+**Critical:** Keep audience needs in mind - dictionary exists to make dense concepts accessible.
+
+---
+
 ## Objective
 
 Create comprehensive technical-to-accessible term mapping for all jargon in *Blindsight* (neuroscience, physics, Watts neologisms).

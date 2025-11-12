@@ -20,6 +20,7 @@ This guide helps you quickly create the remaining 54 ticket files using the temp
 - 🔲 T011: Extract Bates Dialogue (Haiku, $1)
 - 🔲 T012: Extract Cunningham Dialogue (Haiku, $1)
 - ✅ T013: Build Jargon Dictionary (GPT-4o, $5)
+- ✅ T062: Literary Style Analysis (Opus, $15-20) - **CRITICAL for all translation**
 
 ### **Stage 2: Summaries (T014-T017)** - $22, 1-2 weeks
 - 🔲 T014: Chapter Summaries 1-11 (Sonnet, $8)
@@ -158,6 +159,74 @@ For Cursor/Copilot agents, you can:
 
 ---
 
+## Context Requirements (Critical Addition)
+
+**EVERY ticket must include a "Context Requirements" section specifying:**
+
+1. **Which documents to read BEFORE starting the task**
+2. **Why each document is needed**
+3. **Critical warning about loading context first**
+
+### Context Requirements Patterns:
+
+**For Translation Tasks (T018-T040):**
+```markdown
+## Context Requirements
+
+**Documents to Read BEFORE Starting:**
+
+**MANDATORY (Must be fresh in memory):**
+- [ ] `Documentation/The-Preface.md` - **CRITICAL:** Keep Sarasti-9947 voice and meta-ironic tone fresh
+- [ ] `Tasks/01-Research/Literary-Style-Guide.md` (T062 output) - **CRITICAL:** Watts' prose techniques and patterns
+- [ ] `Instructions/Character-Voice-Reference.md` - **CRITICAL:** All character voices (human AND non-human) in one document
+- [ ] `Instructions/Using-Watts-Language-Legal-Requirements.md` - **LEGAL:** When to use Watts' exact words vs. transform (fair use compliance)
+- [ ] `Documentation/Character-Philosophy.md` - Voice profiles and method acting approach
+
+**Supporting Context:**
+- [ ] `Tasks/01-Research/Jargon-Dictionary.md` - Technical terms reference
+- [ ] `Tasks/02-Summaries/Chapter-XX-Summary.md` - Chapter overview
+- [ ] `Tasks/02-Summaries/Character-Arc-Snapshot-Chapter-XX.md` - Character states
+- [ ] Original `Source/Chapter-XX.md` - Source material
+- [ ] Individual character studies (T003-T007) - If deeper analysis needed for specific character
+
+**Critical:** The preface establishes our voice, the style guide shows HOW Watts writes, the character reference shows WHO is speaking, the language guidelines show WHEN to use Watts' exact words. Re-read all before translation.
+```
+
+**For Character Studies (T003-T008):**
+```markdown
+## Context Requirements
+
+**Documents to Read BEFORE Starting:**
+
+- [ ] `Documentation/Character-Philosophy.md` - Method acting approach and voice requirements
+- [ ] `Documentation/Technical-Approach.md` - LLM system prompts and analysis framework
+- [ ] `Tasks/01-Research/Chapter-XX-[Character].md` - All character appearances
+
+**Critical:** Must have character philosophy fresh in memory to create deep, nuanced analysis.
+```
+
+**For Review Tasks (T041-T049):**
+```markdown
+## Context Requirements
+
+**Documents to Read BEFORE Starting:**
+
+- [ ] `Documentation/The-Preface.md` - Voice baseline for consistency checking
+- [ ] Relevant guideline docs (Consistency-Review-Guidelines.md, etc.)
+- [ ] Translated chapters being reviewed
+- [ ] Character studies (for voice validation)
+
+**Critical:** Must have baseline voice and guidelines fresh to catch subtle issues.
+```
+
+**Why This Matters:**
+- LLMs have limited context windows - must prioritize what to load
+- The preface is MOST IMPORTANT for maintaining consistent voice across translations
+- Loading too much = diluted context; too little = missing critical info
+- Fresh context = better adherence to voice, style, and requirements
+
+---
+
 ## Dependencies
 
 **Critical Path:**
@@ -165,14 +234,16 @@ For Cursor/Copilot agents, you can:
 - T003-T007 can run in parallel (character studies)
 - T008-T012 depend on T002 (dialogue extraction needs Markdown)
 - T013 depends on T002 (jargon needs Markdown)
-- T014-T017 depend on all of Stage 1
-- T018 depends on all of Stages 1 & 2
+- **T062 depends on T002 (style analysis needs Markdown) - BLOCKS ALL TRANSLATION**
+- T014-T017 depend on all of Stage 1 including T062
+- **T018 depends on T062** (style guide critical for first chapter voice)
 - T019-T039 depend on T018 (voice established)
 - T040-T047 depend on all translations complete
 - T048-T060 depend on reviews complete
+- **T061 depends on T062** (style guide critical for preface kayfabe/meta-narrative)
 
 ---
 
-**Total Tickets:** 60  
-**Created:** 6 (T001-T003, T013, T018, TEMPLATE)  
-**Remaining:** 54
+**Total Tickets:** 62 (was 60, added T061 Preface + T062 Style Analysis)  
+**Created:** 9 (T001-T003, T013, T018, T041, T047, T050, T061, T062, TEMPLATE)  
+**Remaining:** 53
