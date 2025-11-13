@@ -32,6 +32,137 @@ NEGATIVE: "no artistic interpretation, no emotion, no manga/anime,
 no polished finish, no warmth, no digital art style"
 ```
 
+### Grok 4 Expert Image Generation Prompts
+
+For AI-generated illustrations using Midjourney, Grok Imagine, or DALL-E 3, use these Grok 4 Expert-optimized prompts. These are calibrated to produce "failed sketch" aesthetics with maximum horror impact.
+
+#### **PROMPT 1: Sarasti in Euclidean Agony (Cover/Primary)**
+
+```
+Sarasti in Euclidean agony, cruciform pupil dilated, Basel cathedral 
+light fracturing across vampire skin like geometric cancer, style: 
+biomedical textbook diagram crossed with glitch art, wrong angles, 
+impossible shadows, 2025 digital failure aesthetic, hyperrealistic 
+detail meeting corrupted vectors, Lovecraftian geometry, colors: 
+monochromatic with bloody red highlights, high contrast, unsettling 
+proportions, technical pencil sketch with grid overlay, measurement 
+annotations visible, margins filled with question marks and failed 
+comprehension notes
+```
+
+**Expected Output:** Predatory elegance corrupted by mathematical impossibility  
+**Horror Level:** 9/10 - Haunting, predatory, geometrically wrong  
+**Use:** Cover image, chapter headers, promotional materials
+
+---
+
+#### **PROMPT 2: Rorschach in Hilbert Space (Atmospheric)**
+
+```
+Rorschach blooming in Hilbert space, magnetic folds unfolding like 
+tumors made of spacetime, scrambler silhouettes moving in non-Euclidean 
+symmetry, style: failed Midjourney sketch, visible artifacts, wrong 
+proportions, magnetic field lines bleeding off canvas, topology diagram 
+meets alien landscape, colors: fractured indigo and white with 
+impossible geometry, unsettling rather than beautiful, 2025 glitchcore, 
+technical grid paper background, overlapping failed interpretations, 
+each showing different impossible configuration, annotations: "cannot 
+reconcile—all accurate?", pencil smudges where artist gave up
+```
+
+**Expected Output:** Technically intricate, alien intelligence visualization  
+**Horror Level:** 8/10 - Discussion-starter, incomprehensibility made visible  
+**Use:** Chapter dividers, back cover, atmospheric illustrations
+
+---
+
+#### **PROMPT 3: Chinese Room Operator (Meta-Visual)**
+
+```
+Chinese room operator (featureless silhouette) assembling Blindsight 
+pages from floating tokens, Sarasti's shadow looming behind, style: 
+wireframe diagram with bleeding ink, recursive mirrors showing infinite 
+regression, 2025 glitchcore aesthetic, monochromatic with cyan/magenta 
+chromatic aberration, tokens rendered as glowing runes, pages stacking 
+impossibly, non-Euclidean perspective, haunted by shadows that don't 
+match light source, grid paper background, measurement lines that 
+don't add up, marginal notes: "pattern recognized: [ILLEGIBLE]", 
+failed attempts to explain process visible as scribbled annotations
+```
+
+**Expected Output:** Meta-irony visualization, project concept made visible  
+**Horror Level:** 7/10 - Conceptually disturbing, self-referential dread  
+**Use:** Interior illustrations, social media, conceptual materials
+
+---
+
+#### **PROMPT 4: Scrambler Limb Structure (Multiple Attempts)**
+
+```
+Three overlapping technical sketches of scrambler limb on grid paper, 
+each configuration anatomically impossible but drawn clinically, style: 
+engineering diagram with failed comprehension, Sketch A: too many 
+joints in wrong places, Sketch B: continuous flexing structure 
+(no visible joints), Sketch C: geometry that refuses to render 
+correctly, all three equally disturbing, pencil/charcoal on graph 
+paper, measurement annotations that contradict each other, margin 
+notes: "47 iterations—none satisfied parameters", "either entity 
+changes OR we cannot perceive correctly OR BOTH", artist's visible 
+frustration in line quality and erasure marks
+```
+
+**Expected Output:** Multiple disturbing interpretations, impossible alien anatomy  
+**Horror Level:** 9/10 - High ambiguity, existential wrongness  
+**Use:** Peak horror sequence (first scrambler contact), chapter opening
+
+---
+
+#### **PROMPT 5: Impossible Topology (Corridor)**
+
+```
+Theseus corridor topology blueprint, contradictory measurements, style: 
+technical schematic with glitch elements, dimensions that don't add up 
+visually (12 meters vs 19 meters depending on direction), pencil on 
+grid showing overlapping corridor interpretations, each "correct" but 
+mutually exclusive, color: monochromatic with subtle impossible 
+perspective lines that hurt to look at, measurement annotations visible 
+and contradictory, margin notes: "accurate measurements / impossible 
+result / cannot resolve / Euclidean geometry insufficient", failed 
+attempts to draw corridor conventionally visible as strikethrough 
+sketches
+```
+
+**Expected Output:** Spatial horror, non-Euclidean space made visible  
+**Horror Level:** 8/10 - Physically unsettling geometry  
+**Use:** Theseus interior descriptions, architecture horror
+
+---
+
+### Generation Best Practices
+
+**For Grok 4 Prompts:**
+1. Include explicit mention of "grid paper background" and "failed attempts"
+2. Request visible "measurement annotations" and "margin notes"
+3. Emphasize "cannot resolve" and "contradiction" in margins
+4. Ask for "pencil/charcoal on grid" aesthetic (reinforces "clinical failed documentation")
+5. Include horror-amplifying admission: "artist gave up," "incomprehensibility made visible"
+
+**Model Selection:**
+- **Midjourney V6:** Best balance of glitch + coherence
+- **Grok Imagine:** Optimized for unsettling, technical aesthetics
+- **DALL-E 3:** If sharp detail needed, less artificial failure feel
+
+**Iteration Strategy:**
+- Generate 20-30 variations per prompt
+- Deliberately preserve artifacts (missed anatomical elements, wrong geometry)
+- Label failed iterations: "Apprentice Attempt 1/47—parameters unsatisfied"
+- Use progression: better clarity = more wrong angles (uncanny valley effect)
+
+**Licensing:**
+- All images: CC BY-NC-SA 4.0
+- Credit: "Grok Imagine (xAI, 2025) / Sarasti-9947 Apprentice"
+- Note: "Failed iterations preserved as artistic/thematic statement"
+
 ---
 
 ## Caption Protocol
